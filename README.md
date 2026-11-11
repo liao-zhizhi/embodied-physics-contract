@@ -9,6 +9,14 @@ This is **not** a training format. RGB, language, and end-effector actions may e
 - Spec: [`PUBLIC_SCHEMA_v1.md`](PUBLIC_SCHEMA_v1.md)
 - Example episode: [`schema.example.json`](schema.example.json)
 
+## Scope
+
+This repository only defines the `gradia.embodied_physics.v1` data contract and a format example.
+
+The reference auditor `audit_episode.py` lives in the local Gradia workbench. It is not published with this repository.
+
+`schema.example.json` is a format example. It is not a reproducible audit pack.
+
 ## Audit order
 
 1. Empty `frames` → `NOT_RUN`
